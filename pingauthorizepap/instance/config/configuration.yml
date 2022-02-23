@@ -6,7 +6,7 @@ server:
     port: "${PING_PORT:-8443}"
     keyStoreType: "${PING_KEYSTORE_TYPE:-PKCS12}"
     keyStorePath: "config/keystorenew.p12"
-    keyStorePassword: "0cc81b42"
+    keyStorePassword: "9771b9fb"
     certAlias: "${PING_CERT_ALIAS:-server-cert}"
     validateCerts: false
     validatePeers: false
@@ -16,7 +16,7 @@ server:
     port: "${PING_ADMIN_PORT:-8444}"
     keyStoreType: "PKCS12"
     keyStorePath: "config/admin-keystorenew.p12"
-    keyStorePassword: "ada4c123"
+    keyStorePassword: "7a94de83"
     certAlias: "admin-cert"
     validateCerts: false
     validatePeers: false
