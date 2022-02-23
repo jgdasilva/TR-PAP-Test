@@ -22,6 +22,7 @@ truststores:
   #
   #  - name: CustomTrustStore
   #    resource: /path/to/custom-truststore.jks
+  
   #    password: truststore-password
 deploymentPackageData:
   # Define a key store to use for signing deployment packages here.
