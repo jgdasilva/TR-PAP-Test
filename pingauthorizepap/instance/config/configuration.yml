@@ -4,10 +4,10 @@ server:
   applicationConnectors:
   - type: "https"
     port: "${PING_PORT:-8443}"
-    keyStoreType: "${PING_KEYSTORE_TYPE:-PKCS12}"
-    keyStorePath: "config/keystore.p12}"
+    keyStoreType: "PKCS12"
+    keyStorePath: "config/keystorenew.p12"
     keyStorePassword: "2b952f58"
-    certAlias: "${PING_CERT_ALIAS:-server-cert}"
+    certAlias: "server-cert"
     validateCerts: false
     validatePeers: false
   adminConnectors:
@@ -15,7 +15,7 @@ server:
     bindHost: "localhost"
     port: "${PING_ADMIN_PORT:-8444}"
     keyStoreType: "PKCS12"
-    keyStorePath: "config/admin-keystore.p12"
+    keyStorePath: "config/admin-keystorenew.p12"
     keyStorePassword: "d62deb43"
     certAlias: "admin-cert"
     validateCerts: false
